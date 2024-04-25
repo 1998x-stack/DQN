@@ -19,16 +19,20 @@ def get_all_envs():
             # 初始化观察空间和行动空间的描述字符串
             obs_space_desc = ""
             action_space_desc = ""
+            obs_space_discrete = False
+            action_space_discrete = False
 
             # 格式化观察空间描述
             if isinstance(obs_space, gym.spaces.Discrete):
                 obs_space_desc = obs_space.n
+                obs_space_discrete = True
             elif isinstance(obs_space, gym.spaces.Box):
                 obs_space_desc = obs_space.shape if len(obs_space.shape) > 1 else obs_space.shape[0]
 
             # 格式化行动空间描述
             if isinstance(action_space, gym.spaces.Discrete):
                 action_space_desc = action_space.n
+                action_space_discrete = True
             elif isinstance(action_space, gym.spaces.Box):
                 action_space_desc = action_space.shape if len(action_space.shape) > 1 else action_space.shape[0]
 
@@ -36,10 +40,14 @@ def get_all_envs():
             print(f"环境名称: {env_name}")
             print(f"观察空间: {obs_space_desc}")
             print(f"行动空间: {action_space_desc}")
+            print(f"观察空间离散: {obs_space_discrete}")
+            print(f"行动空间离散: {action_space_discrete}")
             print("-" * 40)  # 输出分隔线以增强可读性
             js_env[env_name] = {
                 "observation_space": obs_space_desc,
-                "action_space": action_space_desc
+                "action_space": action_space_desc,
+                "observation_space_discrete": obs_space_discrete,
+                "action_space_discrete": action_space_discrete,
             }
 
         except gym.error.Error as e:

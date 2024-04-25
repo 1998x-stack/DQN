@@ -5,14 +5,14 @@ with open('data/latest_env.json', 'r') as f:
 
 class CONFIG:
     def __init__(self) -> None:
-        self.env_name = 'MountainCar-v0'
+        self.env_name = 'YarsRevenge-ramNoFrameskip-v4'
         self.hidden_size_list = [16, 16] # Hidden layer sizes
         # self.env_name = 'ALE/Adventure-v5'
         # self.env_name = 'ALE/Adventure-ram-v5'
         self.channel_kernel_stride_list = [(32, 8, 3), (64, 8, 3), (1, 3, 2)]
         
         self.capacity = 1000 # Buffer capacity
-        self.batch_size = 128 # Batch size
+        self.batch_size = 32 # Batch size
         self.discount_factor = 0.99 # Discount factor
         self.lr = 0.001 # Learning rate
         self.tau = 1e-3 # Tau value for soft update
@@ -25,6 +25,7 @@ class CONFIG:
         
         self.dueling = True # Dueling DQN
         self.target = True # Target DQN
+        self.is_noisy = True # Noisy DQN
         self.DEVICE = torch.device(f'cuda:2' if torch.cuda.is_available() else 'cpu') # Device to use for training
         self.print_all()
         
@@ -39,7 +40,9 @@ class CONFIG:
         suf = self.env_name.split('/')[-1].split('-')[0]
         suf += '_Dueling' if self.dueling else ''
         suf += f'_Target{self.tau}' if self.target else ''
+        suf += '_Noisy' if self.is_noisy else ''
         suf += '_r' + str(self.l2_reg) if self.l2_reg > 0 else ''
+        suf += '_bs{}'.format(self.batch_size)
         
         return suf
 

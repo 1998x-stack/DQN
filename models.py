@@ -4,40 +4,48 @@ import torch.nn as nn
 
 # Defining the neural network for the DQN
 class DQN(nn.Module):
-    def __init__(self, input_size, output_size, hidden_size_list, dueling=False):
+    def __init__(self, input_size, output_size, hidden_size_list, dueling=False, is_noisy=False):
         super(DQN, self).__init__()
         self.dueling = dueling
+        self.is_noisy = is_noisy
         self.network = nn.Sequential()
         for i, hidden_size in enumerate(hidden_size_list):
             if i == 0:
-                self.network.add_module('fc{}'.format(i), NoisyLinear(input_size, hidden_size))
+                self.network.add_module('fc{}'.format(i), nn.Linear(input_size, hidden_size))
             else:
                 self.network.add_module('relu{}'.format(i), nn.ReLU())
-                self.network.add_module('fc{}'.format(i), NoisyLinear(hidden_size_list[i - 1], hidden_size))
+                self.network.add_module('fc{}'.format(i), nn.Linear(hidden_size_list[i - 1], hidden_size))
         self.network.add_module('relu{}'.format(len(hidden_size_list)), nn.ReLU())
         if not dueling:
-            self.network.add_module('fc{}'.format(len(hidden_size_list)), NoisyLinear(hidden_size_list[-1], output_size))
+            if is_noisy:
+                self.network.add_module('fc{}'.format(len(hidden_size_list)), NoisyLinear(hidden_size_list[-1], output_size))
+            else:
+                self.network.add_module('fc{}'.format(len(hidden_size_list)), nn.Linear(hidden_size_list[-1], output_size))
         else:
             self.value_stream = nn.Sequential(
-                NoisyLinear(hidden_size_list[-1], 12),
+                nn.Linear(hidden_size_list[-1], 12),
                 nn.ReLU(),
-                NoisyLinear(12, 1)
+                nn.Linear(12, 1)
             )
             self.advantage_stream = nn.Sequential(
-                NoisyLinear(hidden_size_list[-1], 12),
+                nn.Linear(hidden_size_list[-1], 12),
                 nn.ReLU(),
-                NoisyLinear(12, output_size)
+                NoisyLinear(12, output_size) if is_noisy else nn.Linear(12, output_size)
             )
         
     def forward(self, x):
-        out = self.network(x)
+        # x = self.network(x)
+        for layer in self.network:
+            x = layer(x)
         if not self.dueling:
-            return out
-        value = self.value_stream(out)
-        advantage = self.advantage_stream(out)
+            return x
+        value = self.value_stream(x)
+        advantage = self.advantage_stream(x)
         return value + advantage - advantage.mean()
     
     def reset_noise(self):
+        if not self.is_noisy:
+            pass
         for name, module in self.named_children():
             # Check if the module is an instance of NoisyLinear
             if isinstance(module, NoisyLinear):
@@ -45,9 +53,10 @@ class DQN(nn.Module):
                         
 
 class DQN_CNN(nn.Module):
-    def __init__(self, input_size, output_size, hidden_size_list=[(32, 8, 3), (64, 6, 2), (1, 4, 1)], dueling=False):
+    def __init__(self, input_size, output_size, hidden_size_list=[(32, 8, 3), (64, 6, 2), (1, 4, 1)], dueling=False, is_noisy=False):
         super(DQN_CNN, self).__init__()
         self.dueling = dueling
+        self.is_noisy = is_noisy
         c = input_size[2]  # Assuming channels-last format in input specification
         w = input_size[0]
         h = input_size[1]
@@ -68,20 +77,20 @@ class DQN_CNN(nn.Module):
         assert linear_input_size > 0, f"The size of the output {(w, h)} of the convolutional layers is invalid"
         if not dueling:
             self.head = nn.Sequential(
-                NoisyLinear(linear_input_size, linear_input_size//4),
+                nn.Linear(linear_input_size, linear_input_size//4),
                 nn.ReLU(),
-                NoisyLinear(linear_input_size//4, output_size),
+                NoisyLinear(linear_input_size//4, output_size) if is_noisy else nn.Linear(linear_input_size//4, output_size)
             )
         if dueling:
             self.value_stream = nn.Sequential(
-                NoisyLinear(linear_input_size, linear_input_size//4),
+                nn.Linear(linear_input_size, linear_input_size//4),
                 nn.ReLU(),
-                NoisyLinear(linear_input_size//4, 1)
+                nn.Linear(linear_input_size//4, 1)
             )
             self.advantage_stream = nn.Sequential(
-                NoisyLinear(linear_input_size, linear_input_size//4),
+                nn.Linear(linear_input_size, linear_input_size//4),
                 nn.ReLU(),
-                NoisyLinear(linear_input_size//4, output_size)
+                NoisyLinear(linear_input_size//4, output_size) if is_noisy else nn.Linear(linear_input_size//4, output_size)
             )
 
     @staticmethod
@@ -100,6 +109,8 @@ class DQN_CNN(nn.Module):
         return value + advantage - advantage.mean()
     
     def reset_noise(self):
+        if not self.is_noisy:
+            pass
         for name, module in self.named_children():
             # Check if the module is an instance of NoisyLinear
             if isinstance(module, NoisyLinear):

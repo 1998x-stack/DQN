@@ -31,7 +31,7 @@ def visualize_cum_rewards(cum_rewards, additional_info='', smooth_rate=1):
     plt.yticks(fontsize=12)
 
     # Saving the plot with high resolution
-    plt.savefig(f'figures/cumulative_reward_{additional_info}.png', dpi=300)
+    plt.savefig(f'figures/cumulative_reward_{additional_info}_sm{smooth_rate}.png', dpi=300)
 
     # Closing the plot to free up memory
     plt.close()

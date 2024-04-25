@@ -1,87 +1,141 @@
 {
     "HumanoidStandup-v4": {
         "observation_space": 376,
-        "action_space": 17
+        "action_space": 17,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "Humanoid-v4": {
         "observation_space": 376,
-        "action_space": 17
+        "action_space": 17,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "Ant-v4": {
         "observation_space": 27,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "HalfCheetah-v4": {
         "observation_space": 17,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "InvertedDoublePendulum-v4": {
         "observation_space": 11,
-        "action_space": 1
+        "action_space": 1,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "InvertedPendulum-v4": {
         "observation_space": 4,
-        "action_space": 1
+        "action_space": 1,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "Pusher-v4": {
         "observation_space": 23,
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "Reacher-v4": {
         "observation_space": 11,
-        "action_space": 2
+        "action_space": 2,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "Taxi-v3": {
         "observation_space": 500,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": true,
+        "action_space_discrete": true
     },
     "CliffWalking-v0": {
         "observation_space": 48,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": true,
+        "action_space_discrete": true
     },
     "FrozenLake8x8-v1": {
         "observation_space": 64,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": true,
+        "action_space_discrete": true
     },
     "FrozenLake-v1": {
         "observation_space": 16,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": true,
+        "action_space_discrete": true
     },
     "Blackjack-v1": {
         "observation_space": "",
-        "action_space": 2
+        "action_space": 2,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
+    },
+    "BipedalWalkerHardcore-v3": {
+        "observation_space": 24,
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
+    },
+    "BipedalWalker-v3": {
+        "observation_space": 24,
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "Acrobot-v1": {
         "observation_space": 6,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pendulum-v1": {
         "observation_space": 3,
-        "action_space": 1
+        "action_space": 1,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "MountainCarContinuous-v0": {
         "observation_space": 2,
-        "action_space": 1
+        "action_space": 1,
+        "observation_space_discrete": false,
+        "action_space_discrete": false
     },
     "MountainCar-v0": {
         "observation_space": 2,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CartPole-v1": {
         "observation_space": 4,
-        "action_space": 2
+        "action_space": 2,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Zaxxon-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Zaxxon-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Zaxxon-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ZaxxonNoFrameskip-v4": {
         "observation_space": [
@@ -89,7 +143,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ZaxxonDeterministic-v4": {
         "observation_space": [
@@ -97,7 +153,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Zaxxon-v4": {
         "observation_space": [
@@ -105,19 +163,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "YarsRevenge-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "YarsRevenge-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "YarsRevenge-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "YarsRevengeNoFrameskip-v4": {
         "observation_space": [
@@ -125,7 +191,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "YarsRevengeDeterministic-v4": {
         "observation_space": [
@@ -133,7 +201,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "YarsRevenge-v4": {
         "observation_space": [
@@ -141,19 +211,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "WizardOfWor-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "WizardOfWor-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "WizardOfWor-ram-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "WizardOfWorNoFrameskip-v4": {
         "observation_space": [
@@ -161,7 +239,9 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "WizardOfWorDeterministic-v4": {
         "observation_space": [
@@ -169,7 +249,9 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "WizardOfWor-v4": {
         "observation_space": [
@@ -177,19 +259,27 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VideoPinball-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VideoPinball-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VideoPinball-ram-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VideoPinballNoFrameskip-v4": {
         "observation_space": [
@@ -197,7 +287,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VideoPinballDeterministic-v4": {
         "observation_space": [
@@ -205,7 +297,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VideoPinball-v4": {
         "observation_space": [
@@ -213,19 +307,27 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Venture-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Venture-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Venture-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VentureNoFrameskip-v4": {
         "observation_space": [
@@ -233,7 +335,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "VentureDeterministic-v4": {
         "observation_space": [
@@ -241,7 +345,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Venture-v4": {
         "observation_space": [
@@ -249,19 +355,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "UpNDown-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "UpNDown-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "UpNDown-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "UpNDownNoFrameskip-v4": {
         "observation_space": [
@@ -269,7 +383,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "UpNDownDeterministic-v4": {
         "observation_space": [
@@ -277,7 +393,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "UpNDown-v4": {
         "observation_space": [
@@ -285,19 +403,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tutankham-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tutankham-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tutankham-ram-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TutankhamNoFrameskip-v4": {
         "observation_space": [
@@ -305,7 +431,9 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TutankhamDeterministic-v4": {
         "observation_space": [
@@ -313,7 +441,9 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tutankham-v4": {
         "observation_space": [
@@ -321,19 +451,27 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TimePilot-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TimePilot-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TimePilot-ram-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TimePilotNoFrameskip-v4": {
         "observation_space": [
@@ -341,7 +479,9 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TimePilotDeterministic-v4": {
         "observation_space": [
@@ -349,7 +489,9 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TimePilot-v4": {
         "observation_space": [
@@ -357,19 +499,27 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tennis-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tennis-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tennis-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TennisNoFrameskip-v4": {
         "observation_space": [
@@ -377,7 +527,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "TennisDeterministic-v4": {
         "observation_space": [
@@ -385,7 +537,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Tennis-v4": {
         "observation_space": [
@@ -393,19 +547,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "StarGunner-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "StarGunner-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "StarGunner-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "StarGunnerNoFrameskip-v4": {
         "observation_space": [
@@ -413,7 +575,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "StarGunnerDeterministic-v4": {
         "observation_space": [
@@ -421,7 +585,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "StarGunner-v4": {
         "observation_space": [
@@ -429,19 +595,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SpaceInvaders-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SpaceInvaders-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SpaceInvaders-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SpaceInvadersNoFrameskip-v4": {
         "observation_space": [
@@ -449,7 +623,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SpaceInvadersDeterministic-v4": {
         "observation_space": [
@@ -457,7 +633,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SpaceInvaders-v4": {
         "observation_space": [
@@ -465,19 +643,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Solaris-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Solaris-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Solaris-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SolarisNoFrameskip-v4": {
         "observation_space": [
@@ -485,7 +671,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SolarisDeterministic-v4": {
         "observation_space": [
@@ -493,7 +681,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Solaris-v4": {
         "observation_space": [
@@ -501,19 +691,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Skiing-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Skiing-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Skiing-ram-v4": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SkiingNoFrameskip-v4": {
         "observation_space": [
@@ -521,7 +719,9 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SkiingDeterministic-v4": {
         "observation_space": [
@@ -529,7 +729,9 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Skiing-v4": {
         "observation_space": [
@@ -537,19 +739,27 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Seaquest-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Seaquest-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Seaquest-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SeaquestNoFrameskip-v4": {
         "observation_space": [
@@ -557,7 +767,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "SeaquestDeterministic-v4": {
         "observation_space": [
@@ -565,7 +777,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Seaquest-v4": {
         "observation_space": [
@@ -573,19 +787,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Robotank-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Robotank-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Robotank-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RobotankNoFrameskip-v4": {
         "observation_space": [
@@ -593,7 +815,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RobotankDeterministic-v4": {
         "observation_space": [
@@ -601,7 +825,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Robotank-v4": {
         "observation_space": [
@@ -609,19 +835,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RoadRunner-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RoadRunner-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RoadRunner-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RoadRunnerNoFrameskip-v4": {
         "observation_space": [
@@ -629,7 +863,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RoadRunnerDeterministic-v4": {
         "observation_space": [
@@ -637,7 +873,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RoadRunner-v4": {
         "observation_space": [
@@ -645,19 +883,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Riverraid-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Riverraid-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Riverraid-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RiverraidNoFrameskip-v4": {
         "observation_space": [
@@ -665,7 +911,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "RiverraidDeterministic-v4": {
         "observation_space": [
@@ -673,7 +921,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Riverraid-v4": {
         "observation_space": [
@@ -681,19 +931,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Qbert-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Qbert-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Qbert-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "QbertNoFrameskip-v4": {
         "observation_space": [
@@ -701,7 +959,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "QbertDeterministic-v4": {
         "observation_space": [
@@ -709,7 +969,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Qbert-v4": {
         "observation_space": [
@@ -717,19 +979,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PrivateEye-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PrivateEye-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PrivateEye-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PrivateEyeNoFrameskip-v4": {
         "observation_space": [
@@ -737,7 +1007,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PrivateEyeDeterministic-v4": {
         "observation_space": [
@@ -745,7 +1017,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PrivateEye-v4": {
         "observation_space": [
@@ -753,19 +1027,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pooyan-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pooyan-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pooyan-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PooyanNoFrameskip-v4": {
         "observation_space": [
@@ -773,7 +1055,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PooyanDeterministic-v4": {
         "observation_space": [
@@ -781,7 +1065,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pooyan-v4": {
         "observation_space": [
@@ -789,19 +1075,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pong-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pong-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pong-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PongNoFrameskip-v4": {
         "observation_space": [
@@ -809,7 +1103,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PongDeterministic-v4": {
         "observation_space": [
@@ -817,7 +1113,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pong-v4": {
         "observation_space": [
@@ -825,19 +1123,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pitfall-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pitfall-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pitfall-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PitfallNoFrameskip-v4": {
         "observation_space": [
@@ -845,7 +1151,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PitfallDeterministic-v4": {
         "observation_space": [
@@ -853,7 +1161,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Pitfall-v4": {
         "observation_space": [
@@ -861,19 +1171,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Phoenix-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Phoenix-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Phoenix-ram-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PhoenixNoFrameskip-v4": {
         "observation_space": [
@@ -881,7 +1199,9 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "PhoenixDeterministic-v4": {
         "observation_space": [
@@ -889,7 +1209,9 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Phoenix-v4": {
         "observation_space": [
@@ -897,19 +1219,27 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "NameThisGame-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "NameThisGame-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "NameThisGame-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "NameThisGameNoFrameskip-v4": {
         "observation_space": [
@@ -917,7 +1247,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "NameThisGameDeterministic-v4": {
         "observation_space": [
@@ -925,7 +1257,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "NameThisGame-v4": {
         "observation_space": [
@@ -933,19 +1267,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MsPacman-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MsPacman-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MsPacman-ram-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MsPacmanNoFrameskip-v4": {
         "observation_space": [
@@ -953,7 +1295,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MsPacmanDeterministic-v4": {
         "observation_space": [
@@ -961,7 +1305,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MsPacman-v4": {
         "observation_space": [
@@ -969,19 +1315,27 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MontezumaRevenge-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MontezumaRevenge-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MontezumaRevenge-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MontezumaRevengeNoFrameskip-v4": {
         "observation_space": [
@@ -989,7 +1343,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MontezumaRevengeDeterministic-v4": {
         "observation_space": [
@@ -997,7 +1353,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "MontezumaRevenge-v4": {
         "observation_space": [
@@ -1005,19 +1363,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KungFuMaster-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KungFuMaster-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KungFuMaster-ram-v4": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KungFuMasterNoFrameskip-v4": {
         "observation_space": [
@@ -1025,7 +1391,9 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KungFuMasterDeterministic-v4": {
         "observation_space": [
@@ -1033,7 +1401,9 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KungFuMaster-v4": {
         "observation_space": [
@@ -1041,19 +1411,27 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Krull-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Krull-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Krull-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KrullNoFrameskip-v4": {
         "observation_space": [
@@ -1061,7 +1439,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KrullDeterministic-v4": {
         "observation_space": [
@@ -1069,7 +1449,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Krull-v4": {
         "observation_space": [
@@ -1077,19 +1459,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Kangaroo-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Kangaroo-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Kangaroo-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KangarooNoFrameskip-v4": {
         "observation_space": [
@@ -1097,7 +1487,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "KangarooDeterministic-v4": {
         "observation_space": [
@@ -1105,7 +1497,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Kangaroo-v4": {
         "observation_space": [
@@ -1113,19 +1507,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JourneyEscape-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JourneyEscape-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JourneyEscape-ram-v4": {
         "observation_space": 128,
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JourneyEscapeNoFrameskip-v4": {
         "observation_space": [
@@ -1133,7 +1535,9 @@
             160,
             3
         ],
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JourneyEscapeDeterministic-v4": {
         "observation_space": [
@@ -1141,7 +1545,9 @@
             160,
             3
         ],
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JourneyEscape-v4": {
         "observation_space": [
@@ -1149,19 +1555,27 @@
             160,
             3
         ],
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Jamesbond-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Jamesbond-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Jamesbond-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JamesbondNoFrameskip-v4": {
         "observation_space": [
@@ -1169,7 +1583,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "JamesbondDeterministic-v4": {
         "observation_space": [
@@ -1177,7 +1593,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Jamesbond-v4": {
         "observation_space": [
@@ -1185,19 +1603,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "IceHockey-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "IceHockey-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "IceHockey-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "IceHockeyNoFrameskip-v4": {
         "observation_space": [
@@ -1205,7 +1631,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "IceHockeyDeterministic-v4": {
         "observation_space": [
@@ -1213,7 +1641,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "IceHockey-v4": {
         "observation_space": [
@@ -1221,19 +1651,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Hero-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Hero-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Hero-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "HeroNoFrameskip-v4": {
         "observation_space": [
@@ -1241,7 +1679,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "HeroDeterministic-v4": {
         "observation_space": [
@@ -1249,7 +1689,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Hero-v4": {
         "observation_space": [
@@ -1257,19 +1699,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gravitar-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gravitar-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gravitar-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "GravitarNoFrameskip-v4": {
         "observation_space": [
@@ -1277,7 +1727,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "GravitarDeterministic-v4": {
         "observation_space": [
@@ -1285,7 +1737,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gravitar-v4": {
         "observation_space": [
@@ -1293,19 +1747,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gopher-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gopher-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gopher-ram-v4": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "GopherNoFrameskip-v4": {
         "observation_space": [
@@ -1313,7 +1775,9 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "GopherDeterministic-v4": {
         "observation_space": [
@@ -1321,7 +1785,9 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Gopher-v4": {
         "observation_space": [
@@ -1329,19 +1795,27 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Frostbite-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Frostbite-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Frostbite-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FrostbiteNoFrameskip-v4": {
         "observation_space": [
@@ -1349,7 +1823,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FrostbiteDeterministic-v4": {
         "observation_space": [
@@ -1357,7 +1833,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Frostbite-v4": {
         "observation_space": [
@@ -1365,19 +1843,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Freeway-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Freeway-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Freeway-ram-v4": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FreewayNoFrameskip-v4": {
         "observation_space": [
@@ -1385,7 +1871,9 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FreewayDeterministic-v4": {
         "observation_space": [
@@ -1393,7 +1881,9 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Freeway-v4": {
         "observation_space": [
@@ -1401,19 +1891,27 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FishingDerby-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FishingDerby-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FishingDerby-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FishingDerbyNoFrameskip-v4": {
         "observation_space": [
@@ -1421,7 +1919,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FishingDerbyDeterministic-v4": {
         "observation_space": [
@@ -1429,7 +1929,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "FishingDerby-v4": {
         "observation_space": [
@@ -1437,19 +1939,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Enduro-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Enduro-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Enduro-ram-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "EnduroNoFrameskip-v4": {
         "observation_space": [
@@ -1457,7 +1967,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "EnduroDeterministic-v4": {
         "observation_space": [
@@ -1465,7 +1977,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Enduro-v4": {
         "observation_space": [
@@ -1473,19 +1987,27 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ElevatorAction-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ElevatorAction-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ElevatorAction-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ElevatorActionNoFrameskip-v4": {
         "observation_space": [
@@ -1493,7 +2015,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ElevatorActionDeterministic-v4": {
         "observation_space": [
@@ -1501,7 +2025,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ElevatorAction-v4": {
         "observation_space": [
@@ -1509,19 +2035,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DoubleDunk-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DoubleDunk-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DoubleDunk-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DoubleDunkNoFrameskip-v4": {
         "observation_space": [
@@ -1529,7 +2063,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DoubleDunkDeterministic-v4": {
         "observation_space": [
@@ -1537,7 +2073,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DoubleDunk-v4": {
         "observation_space": [
@@ -1545,19 +2083,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DemonAttack-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DemonAttack-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DemonAttack-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DemonAttackNoFrameskip-v4": {
         "observation_space": [
@@ -1565,7 +2111,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DemonAttackDeterministic-v4": {
         "observation_space": [
@@ -1573,7 +2121,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DemonAttack-v4": {
         "observation_space": [
@@ -1581,19 +2131,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Defender-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Defender-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Defender-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DefenderNoFrameskip-v4": {
         "observation_space": [
@@ -1601,7 +2159,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "DefenderDeterministic-v4": {
         "observation_space": [
@@ -1609,7 +2169,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Defender-v4": {
         "observation_space": [
@@ -1617,19 +2179,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CrazyClimber-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CrazyClimber-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CrazyClimber-ram-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CrazyClimberNoFrameskip-v4": {
         "observation_space": [
@@ -1637,7 +2207,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CrazyClimberDeterministic-v4": {
         "observation_space": [
@@ -1645,7 +2217,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CrazyClimber-v4": {
         "observation_space": [
@@ -1653,19 +2227,27 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ChopperCommand-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ChopperCommand-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ChopperCommand-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ChopperCommandNoFrameskip-v4": {
         "observation_space": [
@@ -1673,7 +2255,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ChopperCommandDeterministic-v4": {
         "observation_space": [
@@ -1681,7 +2265,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ChopperCommand-v4": {
         "observation_space": [
@@ -1689,19 +2275,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Centipede-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Centipede-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Centipede-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CentipedeNoFrameskip-v4": {
         "observation_space": [
@@ -1709,7 +2303,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CentipedeDeterministic-v4": {
         "observation_space": [
@@ -1717,7 +2313,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Centipede-v4": {
         "observation_space": [
@@ -1725,19 +2323,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Carnival-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Carnival-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Carnival-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CarnivalNoFrameskip-v4": {
         "observation_space": [
@@ -1745,7 +2351,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "CarnivalDeterministic-v4": {
         "observation_space": [
@@ -1753,7 +2361,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Carnival-v4": {
         "observation_space": [
@@ -1761,19 +2371,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Breakout-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Breakout-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Breakout-ram-v4": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BreakoutNoFrameskip-v4": {
         "observation_space": [
@@ -1781,7 +2399,9 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BreakoutDeterministic-v4": {
         "observation_space": [
@@ -1789,7 +2409,9 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Breakout-v4": {
         "observation_space": [
@@ -1797,19 +2419,27 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Boxing-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Boxing-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Boxing-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BoxingNoFrameskip-v4": {
         "observation_space": [
@@ -1817,7 +2447,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BoxingDeterministic-v4": {
         "observation_space": [
@@ -1825,7 +2457,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Boxing-v4": {
         "observation_space": [
@@ -1833,19 +2467,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Bowling-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Bowling-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Bowling-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BowlingNoFrameskip-v4": {
         "observation_space": [
@@ -1853,7 +2495,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BowlingDeterministic-v4": {
         "observation_space": [
@@ -1861,7 +2505,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Bowling-v4": {
         "observation_space": [
@@ -1869,19 +2515,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Berzerk-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Berzerk-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Berzerk-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BerzerkNoFrameskip-v4": {
         "observation_space": [
@@ -1889,7 +2543,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BerzerkDeterministic-v4": {
         "observation_space": [
@@ -1897,7 +2553,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Berzerk-v4": {
         "observation_space": [
@@ -1905,19 +2563,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BeamRider-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BeamRider-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BeamRider-ram-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BeamRiderNoFrameskip-v4": {
         "observation_space": [
@@ -1925,7 +2591,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BeamRiderDeterministic-v4": {
         "observation_space": [
@@ -1933,7 +2601,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BeamRider-v4": {
         "observation_space": [
@@ -1941,19 +2611,27 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BattleZone-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BattleZone-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BattleZone-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BattleZoneNoFrameskip-v4": {
         "observation_space": [
@@ -1961,7 +2639,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BattleZoneDeterministic-v4": {
         "observation_space": [
@@ -1969,7 +2649,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BattleZone-v4": {
         "observation_space": [
@@ -1977,19 +2659,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BankHeist-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BankHeist-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BankHeist-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BankHeistNoFrameskip-v4": {
         "observation_space": [
@@ -1997,7 +2687,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BankHeistDeterministic-v4": {
         "observation_space": [
@@ -2005,7 +2697,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "BankHeist-v4": {
         "observation_space": [
@@ -2013,19 +2707,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Atlantis-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Atlantis-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Atlantis-ram-v4": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AtlantisNoFrameskip-v4": {
         "observation_space": [
@@ -2033,7 +2735,9 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AtlantisDeterministic-v4": {
         "observation_space": [
@@ -2041,7 +2745,9 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Atlantis-v4": {
         "observation_space": [
@@ -2049,19 +2755,27 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asteroids-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asteroids-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asteroids-ram-v4": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AsteroidsNoFrameskip-v4": {
         "observation_space": [
@@ -2069,7 +2783,9 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AsteroidsDeterministic-v4": {
         "observation_space": [
@@ -2077,7 +2793,9 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asteroids-v4": {
         "observation_space": [
@@ -2085,19 +2803,27 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asterix-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asterix-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asterix-ram-v4": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AsterixNoFrameskip-v4": {
         "observation_space": [
@@ -2105,7 +2831,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AsterixDeterministic-v4": {
         "observation_space": [
@@ -2113,7 +2841,9 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Asterix-v4": {
         "observation_space": [
@@ -2121,19 +2851,27 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Assault-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Assault-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Assault-ram-v4": {
         "observation_space": 128,
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AssaultNoFrameskip-v4": {
         "observation_space": [
@@ -2141,7 +2879,9 @@
             160,
             3
         ],
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AssaultDeterministic-v4": {
         "observation_space": [
@@ -2149,7 +2889,9 @@
             160,
             3
         ],
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Assault-v4": {
         "observation_space": [
@@ -2157,19 +2899,27 @@
             160,
             3
         ],
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Amidar-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Amidar-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Amidar-ram-v4": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AmidarNoFrameskip-v4": {
         "observation_space": [
@@ -2177,7 +2927,9 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AmidarDeterministic-v4": {
         "observation_space": [
@@ -2185,7 +2937,9 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Amidar-v4": {
         "observation_space": [
@@ -2193,19 +2947,27 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Alien-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Alien-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Alien-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AlienNoFrameskip-v4": {
         "observation_space": [
@@ -2213,7 +2975,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AlienDeterministic-v4": {
         "observation_space": [
@@ -2221,7 +2985,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Alien-v4": {
         "observation_space": [
@@ -2229,19 +2995,27 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AirRaid-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AirRaid-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AirRaid-ram-v4": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AirRaidNoFrameskip-v4": {
         "observation_space": [
@@ -2249,7 +3023,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AirRaidDeterministic-v4": {
         "observation_space": [
@@ -2257,7 +3033,9 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AirRaid-v4": {
         "observation_space": [
@@ -2265,19 +3043,27 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Adventure-ramNoFrameskip-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Adventure-ramDeterministic-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Adventure-ram-v4": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AdventureNoFrameskip-v4": {
         "observation_space": [
@@ -2285,7 +3071,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "AdventureDeterministic-v4": {
         "observation_space": [
@@ -2293,7 +3081,9 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "Adventure-v4": {
         "observation_space": [
@@ -2301,11 +3091,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Zaxxon-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Zaxxon-v5": {
         "observation_space": [
@@ -2313,11 +3107,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/YarsRevenge-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/YarsRevenge-v5": {
         "observation_space": [
@@ -2325,11 +3123,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/WordZapper-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/WordZapper-v5": {
         "observation_space": [
@@ -2337,11 +3139,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/WizardOfWor-ram-v5": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/WizardOfWor-v5": {
         "observation_space": [
@@ -2349,11 +3155,15 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoPinball-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoPinball-v5": {
         "observation_space": [
@@ -2361,11 +3171,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoCube-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoCube-v5": {
         "observation_space": [
@@ -2373,11 +3187,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoChess-ram-v5": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoChess-v5": {
         "observation_space": [
@@ -2385,11 +3203,15 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoCheckers-ram-v5": {
         "observation_space": 128,
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/VideoCheckers-v5": {
         "observation_space": [
@@ -2397,11 +3219,15 @@
             160,
             3
         ],
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Venture-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Venture-v5": {
         "observation_space": [
@@ -2409,11 +3235,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/UpNDown-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/UpNDown-v5": {
         "observation_space": [
@@ -2421,11 +3251,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Tutankham-ram-v5": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Tutankham-v5": {
         "observation_space": [
@@ -2433,11 +3267,15 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Turmoil-ram-v5": {
         "observation_space": 128,
-        "action_space": 12
+        "action_space": 12,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Turmoil-v5": {
         "observation_space": [
@@ -2445,11 +3283,15 @@
             160,
             3
         ],
-        "action_space": 12
+        "action_space": 12,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Trondead-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Trondead-v5": {
         "observation_space": [
@@ -2457,11 +3299,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/TimePilot-ram-v5": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/TimePilot-v5": {
         "observation_space": [
@@ -2469,11 +3315,15 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/TicTacToe3D-ram-v5": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/TicTacToe3D-v5": {
         "observation_space": [
@@ -2481,11 +3331,15 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Tetris-ram-v5": {
         "observation_space": 128,
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Tetris-v5": {
         "observation_space": [
@@ -2493,11 +3347,15 @@
             160,
             3
         ],
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Tennis-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Tennis-v5": {
         "observation_space": [
@@ -2505,11 +3363,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Surround-ram-v5": {
         "observation_space": 128,
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Surround-v5": {
         "observation_space": [
@@ -2517,11 +3379,15 @@
             160,
             3
         ],
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Superman-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Superman-v5": {
         "observation_space": [
@@ -2529,11 +3395,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/StarGunner-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/StarGunner-v5": {
         "observation_space": [
@@ -2541,11 +3411,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/SpaceWar-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/SpaceWar-v5": {
         "observation_space": [
@@ -2553,11 +3427,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/SpaceInvaders-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/SpaceInvaders-v5": {
         "observation_space": [
@@ -2565,11 +3443,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Solaris-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Solaris-v5": {
         "observation_space": [
@@ -2577,11 +3459,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Skiing-ram-v5": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Skiing-v5": {
         "observation_space": [
@@ -2589,11 +3475,15 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/SirLancelot-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/SirLancelot-v5": {
         "observation_space": [
@@ -2601,11 +3491,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Seaquest-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Seaquest-v5": {
         "observation_space": [
@@ -2613,11 +3507,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Robotank-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Robotank-v5": {
         "observation_space": [
@@ -2625,11 +3523,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/RoadRunner-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/RoadRunner-v5": {
         "observation_space": [
@@ -2637,11 +3539,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Riverraid-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Riverraid-v5": {
         "observation_space": [
@@ -2649,11 +3555,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Qbert-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Qbert-v5": {
         "observation_space": [
@@ -2661,11 +3571,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/PrivateEye-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/PrivateEye-v5": {
         "observation_space": [
@@ -2673,11 +3587,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pooyan-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pooyan-v5": {
         "observation_space": [
@@ -2685,11 +3603,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pong-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pong-v5": {
         "observation_space": [
@@ -2697,11 +3619,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pitfall2-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pitfall2-v5": {
         "observation_space": [
@@ -2709,11 +3635,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pitfall-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pitfall-v5": {
         "observation_space": [
@@ -2721,11 +3651,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Phoenix-ram-v5": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Phoenix-v5": {
         "observation_space": [
@@ -2733,11 +3667,15 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pacman-ram-v5": {
         "observation_space": 128,
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Pacman-v5": {
         "observation_space": [
@@ -2745,11 +3683,15 @@
             160,
             3
         ],
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Othello-ram-v5": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Othello-v5": {
         "observation_space": [
@@ -2757,11 +3699,15 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/NameThisGame-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/NameThisGame-v5": {
         "observation_space": [
@@ -2769,11 +3715,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MsPacman-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MsPacman-v5": {
         "observation_space": [
@@ -2781,11 +3731,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MrDo-ram-v5": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MrDo-v5": {
         "observation_space": [
@@ -2793,11 +3747,15 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MontezumaRevenge-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MontezumaRevenge-v5": {
         "observation_space": [
@@ -2805,11 +3763,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MiniatureGolf-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MiniatureGolf-v5": {
         "observation_space": [
@@ -2817,11 +3779,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MarioBros-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/MarioBros-v5": {
         "observation_space": [
@@ -2829,11 +3795,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/LostLuggage-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/LostLuggage-v5": {
         "observation_space": [
@@ -2841,11 +3811,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/LaserGates-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/LaserGates-v5": {
         "observation_space": [
@@ -2853,11 +3827,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/KungFuMaster-ram-v5": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/KungFuMaster-v5": {
         "observation_space": [
@@ -2865,11 +3843,15 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Krull-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Krull-v5": {
         "observation_space": [
@@ -2877,11 +3859,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Koolaid-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Koolaid-v5": {
         "observation_space": [
@@ -2889,11 +3875,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Klax-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Klax-v5": {
         "observation_space": [
@@ -2901,11 +3891,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/KingKong-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/KingKong-v5": {
         "observation_space": [
@@ -2913,11 +3907,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/KeystoneKapers-ram-v5": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/KeystoneKapers-v5": {
         "observation_space": [
@@ -2925,11 +3923,15 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Kangaroo-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Kangaroo-v5": {
         "observation_space": [
@@ -2937,11 +3939,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Kaboom-ram-v5": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Kaboom-v5": {
         "observation_space": [
@@ -2949,11 +3955,15 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/JourneyEscape-ram-v5": {
         "observation_space": 128,
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/JourneyEscape-v5": {
         "observation_space": [
@@ -2961,11 +3971,15 @@
             160,
             3
         ],
-        "action_space": 16
+        "action_space": 16,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Jamesbond-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Jamesbond-v5": {
         "observation_space": [
@@ -2973,11 +3987,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/IceHockey-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/IceHockey-v5": {
         "observation_space": [
@@ -2985,11 +4003,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/HumanCannonball-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/HumanCannonball-v5": {
         "observation_space": [
@@ -2997,11 +4019,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Hero-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Hero-v5": {
         "observation_space": [
@@ -3009,11 +4035,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/HauntedHouse-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/HauntedHouse-v5": {
         "observation_space": [
@@ -3021,11 +4051,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Hangman-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Hangman-v5": {
         "observation_space": [
@@ -3033,11 +4067,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Gravitar-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Gravitar-v5": {
         "observation_space": [
@@ -3045,11 +4083,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Gopher-ram-v5": {
         "observation_space": 128,
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Gopher-v5": {
         "observation_space": [
@@ -3057,11 +4099,15 @@
             160,
             3
         ],
-        "action_space": 8
+        "action_space": 8,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Galaxian-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Galaxian-v5": {
         "observation_space": [
@@ -3069,11 +4115,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Frostbite-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Frostbite-v5": {
         "observation_space": [
@@ -3081,11 +4131,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Frogger-ram-v5": {
         "observation_space": 128,
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Frogger-v5": {
         "observation_space": [
@@ -3093,11 +4147,15 @@
             160,
             3
         ],
-        "action_space": 5
+        "action_space": 5,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Freeway-ram-v5": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Freeway-v5": {
         "observation_space": [
@@ -3105,11 +4163,15 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/FlagCapture-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/FlagCapture-v5": {
         "observation_space": [
@@ -3117,11 +4179,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/FishingDerby-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/FishingDerby-v5": {
         "observation_space": [
@@ -3129,11 +4195,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Et-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Et-v5": {
         "observation_space": [
@@ -3141,11 +4211,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Entombed-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Entombed-v5": {
         "observation_space": [
@@ -3153,11 +4227,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Enduro-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Enduro-v5": {
         "observation_space": [
@@ -3165,11 +4243,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/ElevatorAction-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/ElevatorAction-v5": {
         "observation_space": [
@@ -3177,11 +4259,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Earthworld-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Earthworld-v5": {
         "observation_space": [
@@ -3189,11 +4275,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/DoubleDunk-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/DoubleDunk-v5": {
         "observation_space": [
@@ -3201,11 +4291,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/DonkeyKong-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/DonkeyKong-v5": {
         "observation_space": [
@@ -3213,11 +4307,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/DemonAttack-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/DemonAttack-v5": {
         "observation_space": [
@@ -3225,11 +4323,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Defender-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Defender-v5": {
         "observation_space": [
@@ -3237,11 +4339,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Darkchambers-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Darkchambers-v5": {
         "observation_space": [
@@ -3249,11 +4355,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Crossbow-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Crossbow-v5": {
         "observation_space": [
@@ -3261,11 +4371,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/CrazyClimber-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/CrazyClimber-v5": {
         "observation_space": [
@@ -3273,11 +4387,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/ChopperCommand-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/ChopperCommand-v5": {
         "observation_space": [
@@ -3285,11 +4403,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Centipede-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Centipede-v5": {
         "observation_space": [
@@ -3297,11 +4419,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Casino-ram-v5": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Casino-v5": {
         "observation_space": [
@@ -3309,11 +4435,15 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Carnival-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Carnival-v5": {
         "observation_space": [
@@ -3321,11 +4451,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Breakout-ram-v5": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Breakout-v5": {
         "observation_space": [
@@ -3333,11 +4467,15 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Boxing-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Boxing-v5": {
         "observation_space": [
@@ -3345,11 +4483,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Bowling-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Bowling-v5": {
         "observation_space": [
@@ -3357,11 +4499,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Blackjack-ram-v5": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Blackjack-v5": {
         "observation_space": [
@@ -3369,11 +4515,15 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Berzerk-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Berzerk-v5": {
         "observation_space": [
@@ -3381,11 +4531,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BeamRider-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BeamRider-v5": {
         "observation_space": [
@@ -3393,11 +4547,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BattleZone-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BattleZone-v5": {
         "observation_space": [
@@ -3405,11 +4563,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BasicMath-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BasicMath-v5": {
         "observation_space": [
@@ -3417,11 +4579,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BankHeist-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/BankHeist-v5": {
         "observation_space": [
@@ -3429,11 +4595,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Backgammon-ram-v5": {
         "observation_space": 128,
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Backgammon-v5": {
         "observation_space": [
@@ -3441,11 +4611,15 @@
             160,
             3
         ],
-        "action_space": 3
+        "action_space": 3,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Atlantis2-ram-v5": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Atlantis2-v5": {
         "observation_space": [
@@ -3453,11 +4627,15 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Atlantis-ram-v5": {
         "observation_space": 128,
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Atlantis-v5": {
         "observation_space": [
@@ -3465,11 +4643,15 @@
             160,
             3
         ],
-        "action_space": 4
+        "action_space": 4,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Asteroids-ram-v5": {
         "observation_space": 128,
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Asteroids-v5": {
         "observation_space": [
@@ -3477,11 +4659,15 @@
             160,
             3
         ],
-        "action_space": 14
+        "action_space": 14,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Asterix-ram-v5": {
         "observation_space": 128,
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Asterix-v5": {
         "observation_space": [
@@ -3489,11 +4675,15 @@
             160,
             3
         ],
-        "action_space": 9
+        "action_space": 9,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Assault-ram-v5": {
         "observation_space": 128,
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Assault-v5": {
         "observation_space": [
@@ -3501,11 +4691,15 @@
             160,
             3
         ],
-        "action_space": 7
+        "action_space": 7,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Amidar-ram-v5": {
         "observation_space": 128,
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Amidar-v5": {
         "observation_space": [
@@ -3513,11 +4707,15 @@
             160,
             3
         ],
-        "action_space": 10
+        "action_space": 10,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Alien-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Alien-v5": {
         "observation_space": [
@@ -3525,11 +4723,15 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/AirRaid-ram-v5": {
         "observation_space": 128,
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/AirRaid-v5": {
         "observation_space": [
@@ -3537,11 +4739,15 @@
             160,
             3
         ],
-        "action_space": 6
+        "action_space": 6,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Adventure-ram-v5": {
         "observation_space": 128,
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     },
     "ALE/Adventure-v5": {
         "observation_space": [
@@ -3549,6 +4755,8 @@
             160,
             3
         ],
-        "action_space": 18
+        "action_space": 18,
+        "observation_space_discrete": false,
+        "action_space_discrete": true
     }
 }
