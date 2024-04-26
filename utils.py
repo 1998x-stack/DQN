@@ -21,7 +21,9 @@ def get_all_envs():
             action_space_desc = ""
             obs_space_discrete = False
             action_space_discrete = False
-
+            min_action = None
+            max_action = None
+            
             # 格式化观察空间描述
             if isinstance(obs_space, gym.spaces.Discrete):
                 obs_space_desc = obs_space.n
@@ -35,19 +37,25 @@ def get_all_envs():
                 action_space_discrete = True
             elif isinstance(action_space, gym.spaces.Box):
                 action_space_desc = action_space.shape if len(action_space.shape) > 1 else action_space.shape[0]
-
+                min_action = action_space.low.tolist()   # 获取最小动作值
+                max_action = action_space.high.tolist()  # 获取最大动作值
+                
             # 打印环境名称和相关信息
             print(f"环境名称: {env_name}")
             print(f"观察空间: {obs_space_desc}")
             print(f"行动空间: {action_space_desc}")
             print(f"观察空间离散: {obs_space_discrete}")
             print(f"行动空间离散: {action_space_discrete}")
+            # 打印动作空间的最小和最大值（如果它们存在的话）
+            if min_action is not None and max_action is not None:
+                print(f"最小动作: {min_action}, 最大动作: {max_action}")
             print("-" * 40)  # 输出分隔线以增强可读性
             js_env[env_name] = {
                 "observation_space": obs_space_desc,
                 "action_space": action_space_desc,
                 "observation_space_discrete": obs_space_discrete,
                 "action_space_discrete": action_space_discrete,
+                "action_range": [min_action, max_action] if min_action is not None and max_action is not None else []
             }
 
         except gym.error.Error as e:

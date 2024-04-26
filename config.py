@@ -1,18 +1,23 @@
-import torch, json, argparse
+import torch, json, argparse, re, random, numpy as np
 
 with open('data/latest_env.json', 'r') as f:
     env_info = json.load(f)
 
+# use regrex to get all the envs
+# format ALE/xxx-ram-xxx
+pattern = re.compile(r'ALE/.*-ram-.*')
+ale_ram_envs = [env for env in env_info if pattern.match(env)]
+
 class CONFIG:
     def __init__(self) -> None:
-        self.env_name = 'YarsRevenge-ramNoFrameskip-v4'
+        self.env_name = 'CartPole-v1'
         self.hidden_size_list = [16, 16] # Hidden layer sizes
         # self.env_name = 'ALE/Adventure-v5'
         # self.env_name = 'ALE/Adventure-ram-v5'
         self.channel_kernel_stride_list = [(32, 8, 3), (64, 8, 3), (1, 3, 2)]
         
-        self.capacity = 1000 # Buffer capacity
-        self.batch_size = 32 # Batch size
+        self.capacity = 2000 # Buffer capacity
+        self.batch_size = 16 # Batch size
         self.discount_factor = 0.99 # Discount factor
         self.lr = 0.001 # Learning rate
         self.tau = 1e-3 # Tau value for soft update
@@ -26,8 +31,10 @@ class CONFIG:
         self.dueling = True # Dueling DQN
         self.target = True # Target DQN
         self.is_noisy = True # Noisy DQN
-        self.DEVICE = torch.device(f'cuda:2' if torch.cuda.is_available() else 'cpu') # Device to use for training
-        self.print_all()
+        self.seed = 42 # Random seed
+        self.DEVICE = torch.device(f'cuda:1' if torch.cuda.is_available() else 'cpu') # Device to use for training
+        # self.print_all()
+        # self.random_seed(self.seed)
         
     def print_all(self):
         print("CONFIG Parameters:")
@@ -41,10 +48,19 @@ class CONFIG:
         suf += '_Dueling' if self.dueling else ''
         suf += f'_Target{self.tau}' if self.target else ''
         suf += '_Noisy' if self.is_noisy else ''
+        suf += '_seed' + str(self.seed)
         suf += '_r' + str(self.l2_reg) if self.l2_reg > 0 else ''
         suf += '_bs{}'.format(self.batch_size)
         
         return suf
+    
+    @staticmethod
+    def random_seed(seed=42):
+        random.seed(seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(seed) 
 
 def parse_arguments(config):
     parser = argparse.ArgumentParser(description='DQN Configuration')
@@ -78,3 +94,4 @@ def parse_arguments(config):
 
 if __name__ == "__main__":
     config = CONFIG()
+    print(ale_ram_envs)

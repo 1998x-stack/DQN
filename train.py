@@ -6,7 +6,7 @@ def one_hot_state(state, observation_space):
     s[state] = 1
     return s
 
-def train_dqn(agent, env, episodes, observation_space_discrete, observation_space):
+def train_dqn(agent, env, episodes, observation_space_discrete, observation_space, logger):
     
     cumulative_rewards = []
     
@@ -33,6 +33,7 @@ def train_dqn(agent, env, episodes, observation_space_discrete, observation_spac
         
         cumulative_rewards.append(total_reward)
         if episode % 3 == 0:
-            print(f"Episode: {episode}, Reward: {total_reward}, Epsilon: {agent.epsilon:.2f}")
+            logger.info(f"[ --- Episode: {episode}, Reward: {total_reward}, Epsilon: {agent.epsilon:.2f} --- ]")
+            print(f"[ --- Episode: {episode}, Reward: {total_reward}, Epsilon: {agent.epsilon:.2f} --- ]")
 
     return cumulative_rewards
