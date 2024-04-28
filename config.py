@@ -15,6 +15,9 @@ class CONFIG:
         # self.env_name = 'ALE/Adventure-v5'
         # self.env_name = 'ALE/Adventure-ram-v5'
         self.channel_kernel_stride_list = [(32, 8, 3), (64, 8, 3), (1, 3, 2)]
+        self.observation_space_discrete = None
+        self.observation_space = None
+        self.logger = None
         
         self.capacity = 2000 # Buffer capacity
         self.batch_size = 16 # Batch size
@@ -32,9 +35,10 @@ class CONFIG:
         self.target = True # Target DQN
         self.is_noisy = True # Noisy DQN
         self.seed = 42 # Random seed
+        self.print_interval = 10
+        
+        
         self.DEVICE = torch.device(f'cuda:1' if torch.cuda.is_available() else 'cpu') # Device to use for training
-        # self.print_all()
-        # self.random_seed(self.seed)
         
     def print_all(self):
         print("CONFIG Parameters:")

@@ -13,20 +13,25 @@ from visualizer import visualize_cum_rewards
 
 def main(env_name=None, cuda_device=None):
     config = CONFIG()
+    config.random_seed(config.seed)
     config.env_name = env_name if env_name else config.env_name
     if cuda_device:
         config.DEVICE = torch.device(f'cuda:{cuda_device}' if torch.cuda.is_available() else 'cpu')
-    config.print_all()
-    config.random_seed(config.seed)
-    logger.add(f"logs/{config.env_name}.log", format="{time} - {level} - {message}", rotation="500 MB", compression="zip", enqueue=True)
-    env = gym.make(config.env_name)
     replay_buffer = ReplayBuffer(capacity=config.capacity)
+    
+    logger.add(f"logs/{config.env_name}.log", format="{time} - {level} - {message}", rotation="500 MB", compression="zip", enqueue=True)
+    config.logger = logger
+    env = gym.make(config.env_name)
+    
     # Determining the sizes from the environment
     observation_space = env_info[config.env_name]['observation_space']
     action_space = env_info[config.env_name]['action_space']
     observation_space_discrete = env_info[config.env_name]['observation_space_discrete']
     action_space_discrete = env_info[config.env_name]['action_space_discrete']
     assert action_space_discrete, "Only discrete action spaces are supported"
+    config.observation_space = action_space_discrete
+    config.observation_space_discrete = observation_space_discrete
+    config.print_all()
     
     target_model = None
     # Instantiating the model
@@ -46,7 +51,7 @@ def main(env_name=None, cuda_device=None):
     agent = DQNAgent(model, replay_buffer, config, env, target_model=target_model)
     
     # Running the training function
-    cumulative_rewards = train_dqn(agent, env, config.episodes, observation_space_discrete, observation_space, logger)
+    cumulative_rewards = train_dqn(agent, env, config)
     with open(f'data/{config.suffix()}_rewards.json', 'w') as f:
         json.dump({config.env_name: cumulative_rewards}, f, ensure_ascii=False, indent=4)
         
